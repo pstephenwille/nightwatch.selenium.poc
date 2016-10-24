@@ -1,15 +1,15 @@
 module.exports = {
-    tags:['test01'],
-    'Goes from google.com to arstechnica.com': function(browser) {
+    tags:['test07'],
+    'Goes from google.com to [hackernews]': function(browser) {
         browser
         .url('http://google.com')
         .waitForElementVisible('body', 1000000);
         browser.element('css selector', 'input', function(result) {
             browser.expect.element('input').to.be.present;
-            browser.setValue('input[autocomplete="off"]', 'ars technica')
+            browser.setValue('input[autocomplete="off"]', 'hackernews')
             .saveScreenshot(browser.options.screenshotsPath+'/smoke01a.png')
             .keys(browser.Keys.ENTER)
-            .waitForElementVisible('a[href="http://arstechnica.com/"]', 1000)
+            .waitForElementVisible('h3[class="r"]', 1000)
             .saveScreenshot(browser.options.screenshotsPath +'/smoke01b.png');
         })
         .end();

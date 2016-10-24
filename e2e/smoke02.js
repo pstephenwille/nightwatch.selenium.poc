@@ -1,6 +1,6 @@
 module.exports = {
     tags:['test02'],
-    'Goes to http://arstechnica.com': function(browser) {
+    'Goes to google.com and searches [docker]': function(browser) {
         browser
         .url('http://arstechnica.com')
         .waitForElementVisible('body', 1000)

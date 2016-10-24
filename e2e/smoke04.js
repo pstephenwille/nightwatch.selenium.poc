@@ -7,10 +7,10 @@ module.exports = {
         browser.element('css selector', 'input', function(result) {
             browser.expect.element('input').to.be.present;
             browser.setValue('input[autocomplete="off"]', 'nofluff')
-            .saveScreenshot(browser.options.screenshotsPath+'/smoke01a.png')
+            .saveScreenshot(browser.options.screenshotsPath+'/smoke04a.png')
             .keys(browser.Keys.ENTER)
             .waitForElementVisible('h3[class="r"]', 1000)
-            .saveScreenshot(browser.options.screenshotsPath +'/smoke01b.png');
+            .saveScreenshot(browser.options.screenshotsPath +'/smoke04b.png');
         })
         .end();
     }

@@ -1,55 +1,55 @@
-08:03:46.826 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
-08:03:46.827 INFO - Launching a standalone Selenium Server
-2016-10-24 08:03:46.873:INFO::main: Logging initialized @562ms
-08:03:47.015 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+22:03:36.295 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+22:03:36.295 INFO - Launching a standalone Selenium Server
+2016-10-23 22:03:36.312:INFO::main: Logging initialized @198ms
+22:03:36.364 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-08:03:47.016 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+22:03:36.364 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-08:03:47.016 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-08:03:47.016 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+22:03:36.364 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:03:36.364 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-08:03:47.016 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-08:03:47.016 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-08:03:47.017 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+22:03:36.365 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:03:36.365 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+22:03:36.365 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-2016-10-24 08:03:47.102:INFO:osjs.Server:main: jetty-9.2.15.v20160210
-2016-10-24 08:03:47.133:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
-2016-10-24 08:03:47.155:INFO:osjs.ServerConnector:main: Started ServerConnector@5c7fa833{HTTP/1.1}{0.0.0.0:4444}
-2016-10-24 08:03:47.155:INFO:osjs.Server:main: Started @844ms
-08:03:47.155 INFO - Selenium Server is up and running
-08:03:47.515 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-08:03:47.568 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Smoke01, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-08:03:47.591 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Smoke01, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.24.417424 (c5c5ea873213ee72e3d0929b47482681555340c3) on port 19741
+2016-10-23 22:03:36.398:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-10-23 22:03:36.421:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
+2016-10-23 22:03:36.433:INFO:osjs.ServerConnector:main: Started ServerConnector@5c7fa833{HTTP/1.1}{0.0.0.0:4444}
+2016-10-23 22:03:36.433:INFO:osjs.Server:main: Started @319ms
+22:03:36.433 INFO - Selenium Server is up and running
+22:03:36.657 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+22:03:36.692 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Smoke05, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+22:03:36.708 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Smoke05, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.24.417424 (c5c5ea873213ee72e3d0929b47482681555340c3) on port 30110
 Only local connections are allowed.
-08:03:48.112 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-08:03:49.615 INFO - Detected dialect: OSS
-08:03:49.637 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Smoke01, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-08:03:49.653 INFO - Executing: [get: http://google.com])
-08:03:51.890 INFO - Done: [get: http://google.com]
-08:03:51.899 INFO - Executing: [find elements: By.cssSelector: body])
-08:03:51.935 INFO - Done: [find elements: By.cssSelector: body]
-08:03:51.955 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (d4794c496dbc12358d3a526fb92d9a84)] -> css selector: body]])
-08:03:51.976 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (d4794c496dbc12358d3a526fb92d9a84)] -> css selector: body]]
-08:03:51.984 INFO - Executing: [find element: By.cssSelector: input])
-08:03:52.010 INFO - Done: [find element: By.cssSelector: input]
-08:03:52.019 INFO - Executing: [find elements: By.cssSelector: input])
-08:03:52.039 INFO - Done: [find elements: By.cssSelector: input]
-08:03:52.049 INFO - Executing: [find element: By.cssSelector: input[autocomplete="off"]])
-08:03:52.069 INFO - Done: [find element: By.cssSelector: input[autocomplete="off"]]
-08:03:52.075 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on LINUX (d4794c496dbc12358d3a526fb92d9a84)] -> css selector: input], [a, r, s,  , t, e, c, h, n, i, c, a]])
-08:03:52.189 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on LINUX (d4794c496dbc12358d3a526fb92d9a84)] -> css selector: input], [a, r, s,  , t, e, c, h, n, i, c, a]]
-08:03:52.196 INFO - Executing: [take screenshot])
-08:03:52.414 INFO - Done: [take screenshot]
-08:03:52.426 INFO - Executing: [send keys to active: []])
-08:03:52.450 INFO - Done: [send keys to active: []]
-08:03:52.458 INFO - Executing: [find elements: By.cssSelector: a[href="http://arstechnica.com/"]])
-08:03:52.473 INFO - Done: [find elements: By.cssSelector: a[href="http://arstechnica.com/"]]
-08:03:52.980 INFO - Executing: [find elements: By.cssSelector: a[href="http://arstechnica.com/"]])
-08:03:53.037 INFO - Done: [find elements: By.cssSelector: a[href="http://arstechnica.com/"]]
-08:03:53.042 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on LINUX (d4794c496dbc12358d3a526fb92d9a84)] -> css selector: a[href="http://arstechnica.com/"]]])
-08:03:53.078 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on LINUX (d4794c496dbc12358d3a526fb92d9a84)] -> css selector: a[href="http://arstechnica.com/"]]]
-08:03:53.084 INFO - Executing: [take screenshot])
-08:03:53.248 INFO - Done: [take screenshot]
-08:03:53.263 INFO - Executing: [delete session: 0541ebd6-0687-45f7-8191-c509a2c5e5c5])
-08:03:53.340 INFO - Done: [delete session: 0541ebd6-0687-45f7-8191-c509a2c5e5c5]
+22:03:36.932 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+22:03:37.310 INFO - Detected dialect: OSS
+22:03:37.325 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Smoke05, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+22:03:37.357 INFO - Executing: [get: http://google.com])
+22:03:37.669 INFO - Done: [get: http://google.com]
+22:03:37.676 INFO - Executing: [find elements: By.cssSelector: body])
+22:03:37.693 INFO - Done: [find elements: By.cssSelector: body]
+22:03:37.697 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (27b1a69a01bfbd1ec7a5371901dcb17c)] -> css selector: body]])
+22:03:37.708 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (27b1a69a01bfbd1ec7a5371901dcb17c)] -> css selector: body]]
+22:03:37.712 INFO - Executing: [find element: By.cssSelector: input])
+22:03:37.726 INFO - Done: [find element: By.cssSelector: input]
+22:03:37.730 INFO - Executing: [find elements: By.cssSelector: input])
+22:03:37.743 INFO - Done: [find elements: By.cssSelector: input]
+22:03:37.747 INFO - Executing: [find element: By.cssSelector: input[autocomplete="off"]])
+22:03:37.761 INFO - Done: [find element: By.cssSelector: input[autocomplete="off"]]
+22:03:37.765 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on LINUX (27b1a69a01bfbd1ec7a5371901dcb17c)] -> css selector: input], [i, n, f, o, w, o, r, l, d]])
+22:03:37.797 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on LINUX (27b1a69a01bfbd1ec7a5371901dcb17c)] -> css selector: input], [i, n, f, o, w, o, r, l, d]]
+22:03:37.801 INFO - Executing: [take screenshot])
+22:03:37.927 INFO - Done: [take screenshot]
+22:03:37.937 INFO - Executing: [send keys to active: []])
+22:03:37.951 INFO - Done: [send keys to active: []]
+22:03:37.962 INFO - Executing: [find elements: By.cssSelector: h3[class="r"]])
+22:03:38.020 INFO - Done: [find elements: By.cssSelector: h3[class="r"]]
+22:03:38.524 INFO - Executing: [find elements: By.cssSelector: h3[class="r"]])
+22:03:38.562 INFO - Done: [find elements: By.cssSelector: h3[class="r"]]
+22:03:38.565 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on LINUX (27b1a69a01bfbd1ec7a5371901dcb17c)] -> css selector: h3[class="r"]]])
+22:03:38.600 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on LINUX (27b1a69a01bfbd1ec7a5371901dcb17c)] -> css selector: h3[class="r"]]]
+22:03:38.602 INFO - Executing: [take screenshot])
+22:03:38.718 INFO - Done: [take screenshot]
+22:03:38.739 INFO - Executing: [delete session: fcd9066e-9ffd-4ffa-917c-801861399f3e])
+22:03:38.806 INFO - Done: [delete session: fcd9066e-9ffd-4ffa-917c-801861399f3e]

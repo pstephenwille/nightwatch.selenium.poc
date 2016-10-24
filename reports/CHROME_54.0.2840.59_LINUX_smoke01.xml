@@ -5,9 +5,9 @@
 
   <testsuite name="smoke01"
     errors="0" failures="0" hostname="" id="" package="smoke01" skipped="0"
-    tests="1" time="2.135" timestamp="Mon, 24 Oct 2016 02:57:40 GMT">
+    tests="1" time="6.108" timestamp="Mon, 24 Oct 2016 15:03:47 GMT">
   
-    <testcase name="Goes from google.com to arstechnica.com" time="2.135" assertions="3">
+    <testcase name="Goes from google.com to arstechnica.com" time="6.108" assertions="3">
 
     
 

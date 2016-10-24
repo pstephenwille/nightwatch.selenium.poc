@@ -7,5 +7,5 @@ node_modules
 
 *.png
 *.DS_Store
-reports/*.xml
+*.xml
 

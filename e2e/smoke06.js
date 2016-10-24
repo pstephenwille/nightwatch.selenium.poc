@@ -3,7 +3,7 @@ module.exports = {
     'Goes from google.com to [dzone]': function(browser) {
         browser
         .url('http://google.com')
-        .waitForElementVisible('body', 1000000);
+        .waitForElementVisible('body', 1000);
         browser.element('css selector', 'input', function(result) {
             browser.expect.element('input').to.be.present;
             browser.setValue('input[autocomplete="off"]', 'dzone')

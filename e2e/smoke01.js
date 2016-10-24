@@ -1,6 +1,6 @@
 module.exports = {
     tags:['test01'],
-    'Goes from google.com to arstechnica.com': function(browser) {
+    'Goes from google.com to [arstechnica.com]': function(browser) {
         browser
         .url('http://google.com')
         .waitForElementVisible('body', 1000000);

@@ -10,7 +10,7 @@ module.exports = {
             .saveScreenshot(browser.options.screenshotsPath+'/smoke01a.png')
             .keys(browser.Keys.ENTER)
             .waitForElementVisible('a[href="http://arstechnica.com/"]', 1000)
-            .saveScreenshot(browser.options.screenshotsPath+ '/smoke01b.png');
+            .saveScreenshot(browser.options.screenshotsPath +'/smoke01b.png');
         })
         .end();
     }

@@ -4,6 +4,7 @@ module.exports = {
         browser
         .url('http://arstechnica.com')
         .waitForElementVisible('body', 1000)
-        .end();
+        .saveScreenshot(browser.options.screenshotsPath +'/smoke02.png')
+        .end()
     }
 }

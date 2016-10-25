@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {1..9}
+do 
+	docker run -d -e tags=test0$i -v /Users/stephenwille/Projects/nightwatch.selenium.poc:/home/seluser swille/chromedebug  /start.xvfb; 
+done

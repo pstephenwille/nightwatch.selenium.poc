@@ -1,5 +1,5 @@
 module.exports = {
-    tags:['test01'],
+    tags:['test01', 'ui'],
     'Goes from google.com to [arstechnica.com]': function(browser) {
         browser
         .url('http://google.com')
